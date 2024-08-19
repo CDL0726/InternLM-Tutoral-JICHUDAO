@@ -173,5 +173,56 @@ lmdeploy serve gradio /share/new_models/OpenGVLab/InternVL2-2B --cache-max-entry
 ![](./jcd7.png)   
 
 
+# 第三课 浦语提示词工程实践    
+2024.8.19    
+
+[第3课 文档](https://github.com/InternLM/Tutorial/tree/camp3/docs/L1/Prompt)    
+[第3课 视频](https://www.bilibili.com/video/BV1cU411S7iV/)      
+
+## 前期准备    
+
+- 创建开发机
+- 配置环境
+```
+# 创建虚拟环境
+conda create -n langgpt python=3.10 -y
+```
+运行下面的命令，激活虚拟环境：
+```
+conda activate langgpt
+```
+
+之后的操作都要在这个环境下进行。激活环境后，安装必要的Python包，依次运行下面的命令：    
+```
+# 安装一些必要的库
+conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=12.1 -c pytorch -c nvidia -y
+
+# 安装其他依赖
+pip install transformers==4.43.3
+
+pip install streamlit==1.37.0
+pip install huggingface_hub==0.24.3
+pip install openai==1.37.1
+pip install lmdeploy==0.5.2
+```
+
+- 创建项目路径
+运行如下命令创建并打开项目路径：
+  ```
+## 创建路径
+mkdir langgpt
+## 进入项目路径
+cd langgpt
+  ```
+- 安装必要软件
+运行下面的命令安装必要的软件：
+```
+apt-get install tmux
+```
+
+
+## 模型部署    
+
+
 
 

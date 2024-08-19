@@ -212,14 +212,14 @@ pip install lmdeploy==0.5.2
 ## 创建路径
 mkdir langgpt
 ## 进入项目路径
+```
 cd langgpt
-  ```
+```
 - 安装必要软件
 运行下面的命令安装必要的软件：
 ```
 apt-get install tmux
 ```
-
 
 ## 模型部署    
 

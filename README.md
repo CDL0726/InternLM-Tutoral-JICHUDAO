@@ -49,7 +49,7 @@ August 2024
 已经在 `/root/share/pre_envs` 中配置好了预置环境 icamp3_demo
 
 可以通过如下指令进行激活：   
-``
+```
 conda activate /root/share/pre_envs/icamp3_demo
 ```    
 
